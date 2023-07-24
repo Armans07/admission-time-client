@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Dhaka_College.svg/1200px-Dhaka_College.svg.png", 
+      "image": "https://i.ibb.co/jwQQ1pD/red-buildings-households.jpg", 
       "name": "Dhaka College",
       "admissionDates": "August 1 - August 15, 2023",
       "events": ["Annual Fest", "Tech Expo"],
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Dhaka_City_College_Seal.svg/800px-Dhaka_City_College_Seal.svg.png", 
+      "image": "https://i.ibb.co/6s7vzRf/school-teaching-building.jpg", 
       "name": "Dhaka City College",
       "admissionDates": "July 15 - August 10, 2023",
       "events": ["Cultural Night", "Science Fair"],
@@ -19,7 +19,7 @@
     },
     {
       "id": 3,
-      "image": "https://dmrc.edu.bd/admin/uploads/dmrc/website/dmrc-club/dmrc-dc-logo-club-page.png",
+      "image": "https://i.ibb.co/tCw2z2c/architecture-independence-palace-ho-chi-minh-city.jpg",
       "name": "DMRC",
       "admissionDates": "July 20 - August 5, 2023",
       "events": ["Music Fest", "Debate Competition"],

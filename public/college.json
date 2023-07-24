@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Dhaka_College.svg/1200px-Dhaka_College.svg.png", 
+      "name": "Dhaka College",
+      "admissionDates": "August 1 - August 15, 2023",
+      "events": ["Annual Fest", "Tech Expo"],
+      "researchHistory": "Established in 1975, 100+ research projects",
+      "sports": ["Football", "Basketball", "Swimming"]
+    },
+    {
+      "id": 2,
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Dhaka_City_College_Seal.svg/800px-Dhaka_City_College_Seal.svg.png", 
+      "name": "Dhaka City College",
+      "admissionDates": "July 15 - August 10, 2023",
+      "events": ["Cultural Night", "Science Fair"],
+      "researchHistory": "Leading research institution since 1980",
+      "sports": ["Cricket", "Tennis", "Badminton"]
+    },
+    {
+      "id": 3,
+      "image": "https://dmrc.edu.bd/admin/uploads/dmrc/website/dmrc-club/dmrc-dc-logo-club-page.png",
+      "name": "DMRC",
+      "admissionDates": "July 20 - August 5, 2023",
+      "events": ["Music Fest", "Debate Competition"],
+      "researchHistory": "Pioneering discoveries in various fields",
+      "sports": ["Volleyball", "Table Tennis", "Athletics"]
+    }
+  ]
+  

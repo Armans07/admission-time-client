@@ -38,7 +38,7 @@ const College = () => {
 
   return (
     <div>
-      <div className='flex justify-end my-5'>
+      <div className='flex justify-end mt-2'>
         <form onSubmit={handleSubmit} className="flex items-center">
           <input
             type="text"

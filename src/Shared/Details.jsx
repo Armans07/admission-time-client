@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 
 const Details = () => {
     const college = useLoaderData()
@@ -17,7 +17,9 @@ const Details = () => {
                         <p className="text-sm text-gray-700">History: {researchHistory}</p>
                         <p className="text-sm text-gray-700">Sports: {sports.join(', ')}</p> */}
                     </div>
-                   
+                    <div className='p-2'>
+                        <Link to='/details'><button className="p-2 btn btn-outline btn-primary">Details</button></Link>
+                    </div>
                 </div>
             </div>
         </div>

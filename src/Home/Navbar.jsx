@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/AuthProvider';
+import logo from '../assets/download-removebg-preview.png'
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext)
@@ -15,7 +16,8 @@ const Navbar = () => {
     <div>
       <nav className="bg-gray-800 p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-white font-bold text-xl">Logo</div>
+          <Link to='/'><div className="text-white font-bold text-xl"><img className='h-8' src={logo} alt="" />
+          </div></Link>
           <div className="md:hidden">
             {/* Mobile Menu */}
             <button
@@ -44,12 +46,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-gray-200">
+                <a href="admission" className="text-white hover:text-gray-200">
                   Admission
                 </a>
               </li>
               <li>
-                <a href="#" className="text-white hover:text-gray-200">
+                <a href="myCollege" className="text-white hover:text-gray-200">
                   My College
                 </a>
               </li>

@@ -6,11 +6,13 @@ import Home from "../Home/Home";
 import ErrorPage from "../ErrorPage";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
-import Colleges from "../RouteComponant/Colleges";
+import Colleges from "../RouteComponant/Colleges/Colleges";
 import PrivetRoute from "./PrivetRoute";
 import College from "../Home/College";
 import ForgotPassword from "../ForgotPassword/ForgotPassword";
 import Details from "../Shared/Details";
+import Admission from "../RouteComponant/Admission/Admission";
+import MyCollege from "../RouteComponant/MyCollege/MyCollege";
 
 
 const router = createBrowserRouter([
@@ -40,8 +42,16 @@ const router = createBrowserRouter([
       {
         path: 'details/:id',
         element: <Details></Details>,
-        loader: ({ params }) => fetch(`college.json/${params.id}`)
+        loader: () => fetch('college.json')
 
+      },
+      {
+        path:'admission',
+        element:<Admission></Admission>
+      },
+      {
+        path:'myCollege',
+        element:<MyCollege></MyCollege>
       }
     ],
 

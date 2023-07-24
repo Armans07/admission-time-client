@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CollegeCard = ({ item }) => {
-  const { image, name, admissionDates, events, researchHistory, sports } = item;
+  const { id, image, name, admissionDates, events, researchHistory, sports } = item;
 
   return (
    <div className='flex'>
@@ -16,7 +16,7 @@ const CollegeCard = ({ item }) => {
         <p className="text-sm text-gray-700">Sports: {sports.join(', ')}</p>
       </div>
       <div className='p-2'>
-      <Link to='details/:id'><button className="p-2 btn btn-outline btn-primary">Details</button></Link>
+      <Link to={`details/${id}`}><button className="p-2 btn btn-outline btn-primary">Details</button></Link>
       </div>
     </div>
    </div>

@@ -1,17 +1,15 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Navbar from './Navbar';
-import CardSearch from './CardSearch';
 import CollegeCard from './College';
 import GallerySection from './GallerySection';
 import OnlineCourse from './OnlineCourse';
 import Feedback from './FeedBack';
+import Banner from './Banner';
 
 
 const Home = () => {
     return (
         <div>
-            
+            <Banner></Banner>
             <CollegeCard></CollegeCard>
             <GallerySection></GallerySection>
             <OnlineCourse></OnlineCourse>
